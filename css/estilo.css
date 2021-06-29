@@ -90,3 +90,14 @@ li {
 li::marker {
   color: #015675;
 }
+@media screen and (max-width: 1080px) {
+  .logo {
+    width: 20vw;
+  }
+  .cabecalho {
+    width: 73%;
+  }
+  button {
+    min-width: 95vw;
+  }
+}
