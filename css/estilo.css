@@ -97,6 +97,7 @@ li::marker {
   .cabecalho {
     width: 100%;
     justify-content: space-around;
+    padding: 0;
   }
   button {
     max-width: 80vw;
