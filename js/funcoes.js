@@ -66,7 +66,7 @@ function validar() {
     titulo.appendChild(textoTitulo);
     elemento.appendChild(titulo);
     var paragrafo = document.createElement("li")
-    var textoParagrafo = document.createTextNode("Os pacotes " + validos.join(", ") + " são válidos.")
+    var textoParagrafo = document.createTextNode("São validos os pacotes: " + validos.join(", "))
     paragrafo.appendChild(textoParagrafo)
     elemento.appendChild(paragrafo)
 
@@ -75,7 +75,7 @@ function validar() {
     titulo.appendChild(textoTitulo);
     elemento.appendChild(titulo);
     var paragrafo = document.createElement("li")
-    var textoParagrafo = document.createTextNode("Os pacotes " + invalidos.join(", ") + " são inválidos.")
+    var textoParagrafo = document.createTextNode("São inválidos os pacotes: " + invalidos.join(", ") + " são inválidos.")
     paragrafo.appendChild(textoParagrafo)
     elemento.appendChild(paragrafo)
 
