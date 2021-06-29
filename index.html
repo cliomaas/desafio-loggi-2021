@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/favicon.ico">
+    <title>Desafio Técnico Loggi - Turma de Estágio 2021</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="logo" src="./assets/loggi.svg">
+            <div class="cabInfo">
+                <h1>Desafio Técnico</h1>
+                <p class="data">Junho - 2021</p>
+            </div>
+
+        </div>
+    </header>
+    <button onclick=mostrar()>Clique para ver/esconder a lista de pacotes</button>
+    <div class="info" id="info">
+        <h1 class="tituloInfoPacotes">Pacotes recebidos pelo leitor:</h1>
+        <ul class="lista">
+            <li>Pacote 1: 888555555123888</li>
+            <li>Pacote 2: 333333555584333</li>
+            <li>Pacote 3: 222333555124000</li>
+            <li>Pacote 4: 000111555874555</li>
+            <li>Pacote 5: 111888555654777</li>
+            <li>Pacote 6: 111333555123333</li>
+            <li>Pacote 7: 555555555123888</li>
+            <li>Pacote 8: 888333555584333</li>
+            <li>Pacote 9: 111333555124000</li>
+            <li>Pacote 10: 333888555584333</li>
+            <li>Pacote 11: 555888555123000</li>
+            <li>Pacote 12: 111888555123555</li>
+            <li>Pacote 13: 888000555845333</li>
+            <li>Pacote 14: 000111555874000</li>
+            <li>Pacote 15: 111333555123555</li>
+        </ul>
+    </div>
+    <button onclick="validar(); this.onclick=null;" style="display: block;" id="botao1">Clique aqui para iniciar ou
+        fechar a
+        validação</button>
+    <button onclick="mostrar2()" style="display: none;" id="botao2">Clique aqui para iniciar ou fechar a
+        validação</button>
+    <div id="container" style="display: none;"></div>
+    <script type="text/javascript" src="./js/funcoes.js"></script>
+</body>
+
+</html>

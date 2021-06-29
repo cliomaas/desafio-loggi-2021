@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(145deg, #fbfcfe, #cadee6);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Open-Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+header {
+  width: 100%;
+  background-color: #fbfcfe;
+  margin: 0 0 2vh 0;
+  box-shadow: 36px 36px 73px, #f9ffff -36px -36px 73px #c7dce3;
+}
+button {
+  background-color: transparent;
+  border: solid 1px #01baff;
+  border-radius: 10px;
+  padding: 2vh;
+  font-size: 1em;
+  font-weight: bold;
+  color: gray;
+  min-width: 20vw;
+  margin-top: 1vh;
+}
+button:hover {
+  color: #fbfcfe;
+  background-color: #01baff;
+}
+
+h1 {
+  color: #01baff;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1vh auto;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #015675;
+}
+ul {
+  padding: 0;
+}
+#container {
+  margin: 5vh;
+  padding: 3vh 5vw;
+  border-radius: 1em;
+  background: linear-gradient(145deg, #f0ffff, #cadee6);
+  box-shadow: 36px 36px 73px #c7dce3, -36px -36px 73px #f9ffff;
+}
+p {
+  font-size: 0.8em;
+  color: #fbfcfe;
+}
+
+.infoPacotes {
+  color: #01baff;
+  display: flex;
+  flex-direction: column;
+}
+.cabecalho {
+  padding: 0 1vw;
+  display: flex;
+  width: 54%;
+  justify-content: space-between;
+}
+.cabInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 5vw;
+}
+.data {
+  font-family: "Montserrat", sans-serif;
+  color: #015675;
+  font-weight: bold;
+}
+li {
+  font-size: 0.8em;
+  color: #015675;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+li::marker {
+  color: #015675;
+}
